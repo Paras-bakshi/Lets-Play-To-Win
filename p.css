@@ -1,0 +1,83 @@
+.container{
+background-color: #FF99FF
+
+;
+
+background-size: cover;
+height:700px;
+font-family: sans-serif;
+
+
+}
+.board{
+  background-color: #FF00CC
+	;
+  width:1000px;
+  height:350px;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  color:white;
+}
+.player1
+{
+  text-align: center;
+  font-size: 30px;
+}
+.player2
+{
+  font-size: 30px;
+  text-align: center;
+}
+.buttons{
+margin-left: 450px;
+  width:1000px;
+
+}
+.newgame
+{margin-top: 80px;
+margin-left: 450px;
+width:130px;
+height:40px;
+cursor: pointer;
+
+
+
+}
+.gamebox{
+  margin-left:150px;
+
+}
+.written2{
+  padding-top: 30px;
+  background-color: #FFCCFF;
+  color:black;
+  height:40px;
+}
+.written1{
+  padding-top: 30px;
+  background-color: #FFCCFF;
+  color:black;
+  height:40px;
+width:40x;
+}
+.bo{
+  width:130px;
+  height:40px;
+  cursor: pointer;
+}
+.active {
+  background-color: #FF0033		;
+}
+.scores{
+  font-size: 60px;
+}
+.input{
+  text-align: center;
+  width:230px;
+  height:40px;
+  margin-left: 400px;
+  margin-top: 20px;
+font-size: 30px;
+letter-spacing: 3px;
+}
