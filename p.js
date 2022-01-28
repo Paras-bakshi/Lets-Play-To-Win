@@ -45,8 +45,8 @@ document.querySelector('.player2').classList.toggle('active');
 ps=dice;
 }
 });
+////////////////////////////////////////////////////////////////////
 
-//////////////////////////////////////////////////////////////////////////////////////////////////////
 document.querySelector('#hold').addEventListener('click',function(){
   if(yoo===0)
   {
@@ -64,10 +64,7 @@ else{
   winscore=100;
 }
 
-
-
-
-if(scores[activeplayer]>=winscore)
+    if(scores[activeplayer]>=winscore)
 {
   document.querySelector('#p'+activeplayer).textContent='WINNER';
   document.querySelector('#dice').style.display='none';
@@ -80,8 +77,6 @@ else {
 }
 }
 });
-
-
 
 function nextplayer()
 {
@@ -97,9 +92,8 @@ document.querySelector("#current2").textContent='0';
 document.querySelector('.player1').classList.toggle('active');
 document.querySelector('.player2').classList.toggle('active');
 }
-//////////////////////////////////////////////////////////////
-//working of new game button
 
+//working of new game button
 
 document.querySelector('.newgame').addEventListener('click',function()
 {
